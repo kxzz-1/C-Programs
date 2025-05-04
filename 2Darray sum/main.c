@@ -1,0 +1,20 @@
+#include <stdio.h>
+void main()
+{
+    int array[2][2];
+    int i,j,sum=0;
+    for(i=0;i<=1;i++)
+    {
+        for(j=0;j<=1;j++)
+        {
+        printf("Enter array element[%d][%d]: ", i,j);
+        scanf("%d,%d", &array[i][j]);
+        }
+    }
+     for (int i = 0; i < 2; i++)
+        {
+        sum += array[i][i];
+        }
+    printf("Sum of diagonal elements is %d", sum);
+}
+

@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void main()
+{
+    array [5]={10,15,20,25};
+    printf("Array elements: ");
+    for(int i=0; i<5; i++)
+    {
+        sum +=sum
+    }
+    
+}

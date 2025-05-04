@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void main()
+{
+    int array[] = {10, 5, 23, 17, 8};
+    int size = 5;
+    int largest = array[0];
+    for (int i = 1; i < size; i++)
+    {
+        if (array[i] > largest)
+        {
+            largest = array[i];
+        }
+    }
+
+    printf("The largest number is: %d\n", largest);
+}

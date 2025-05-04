@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1702962808 source:d:\code blocks\yalghaar\main.c
+	<stdio.h>
+	<string.h>
+	<conio.h>
+	<stdlib.h>
+

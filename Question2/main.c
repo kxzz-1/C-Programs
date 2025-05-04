@@ -1,0 +1,14 @@
+#include <stdio.h>
+void main()
+{
+    int i=1;
+    for(int j=0;j<=6;j++)
+    {
+        for(int k=1;k<=j;k++)
+        {
+            printf("%d ", i);
+            i++;
+        }
+        printf("\n");
+    }
+}

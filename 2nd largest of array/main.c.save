@@ -1,0 +1,25 @@
+#include <stdio.h>
+void main()
+{
+     int array[5];
+     int i,j;
+     for(i=0;i<=4;i++)
+     {
+         printf("Enter array element [%d]: ", i);
+         scanf("%d", &array[i]);
+     }
+     for(i=0;i<5;i++)
+    {
+        for(j=0;j<5; j++)
+        {
+            if(array[j]>array[j+1])
+            {
+                int temp = array[j];
+                array[j] = array[j+1];
+                array[j+1] = temp;
+            }
+        }
+    }
+    printf("Second largest element of array is %d", array[3]);
+}
+ 
